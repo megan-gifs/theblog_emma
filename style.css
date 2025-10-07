@@ -1,0 +1,136 @@
+h1{
+    font-size: 42pt;
+    text-align: center;
+    font-family: "bodedo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 300px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+}
+p{
+    font-size: 16px;
+    border: 2px solid black;
+}
+a{
+    font-size: 20px;
+}
+.box{
+    border: 3px solid black;
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    font-size: 20pt;
+    text-align: center;
+}
+#map{
+    display: block;
+    margin: 50px auto;
+}
+#continuelink{
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+.center{
+    text-align: center;
+}
+.imgcontainer {
+    position: relative;
+    display: inline-block;
+}
+.backgroundimg {
+    display: block;
+    margin-top: -30px;
+}
+.copefridge{
+    margin-top: -100px;
+}
+.famfridge{
+    margin-top: -100px;
+}
+.homefridge{
+    margin-top: -100px;
+}
+.magnetlink {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+.magnet-hotspot {
+    background: transparent;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    cursor: pointer;
+}
+.magnet-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    pointer-events: none; 
+}
+.magnetlink:hover .magnet-img {
+    opacity: 1;
+    visibility: visible;
+}
+.magnetlink, .magnet-hotspot, .magnet-img {
+    border: none;
+    outline: none;
+}
+.rat{
+    transform: rotate(15deg);
+}
+.cope{
+    transform: rotate(-4deg);
+}
+a:link, 
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+.back{
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;  
+    padding: 10px 15px;
+    background-color: black; 
+    color: white;
+}
+body{
+    background-color: rgb(240, 245, 255);
+}
+.home{
+    margin-left: 30px;
+}
+.text{
+    margin-top: -20px;
+}
+.button{
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(247, 232, 246);
+}
